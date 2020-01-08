@@ -11,7 +11,7 @@
     "react-native-uniqueId"
   ],
   "author": "FansX",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "react": "^16.12.0",
     "react-native": "^0.61.4"

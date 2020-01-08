@@ -1,9 +1,12 @@
 
-# react-native-uniqueId
 
+# react-native-uniqueId
+    This is a way to get device uniqueId.
+    1. iOS is use keychain to get uniqueId, if you want to keep defrient app has same uniqueId, please input the bundleId in "Keychain Sharing" in info.plist.
+    2. android use a file to save an UUID in device, this maybe the normal way to solve the devices may have same uniqueId. use it you must keep android storage permmsions openned.
 ## Getting started
 
-`$ npm install react-native-uniqueId --save`
+`$ npm install @fansx/react-native-uniqueId --save`
 
 ### Mostly automatic installation
 
@@ -34,19 +37,12 @@
       compile project(':react-native-uniqueId')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNUniqueId.sln` in `node_modules/react-native-unique-id/windows/RNUniqueId.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Unique.Id.RNUniqueId;` to the usings at the top of the file
-  - Add `new RNUniqueIdPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
 
 ## Usage
 ```javascript
 import RNUniqueId from 'react-native-uniqueId';
 
-// TODO: What to do with the module?
-RNUniqueId;
+RNUniqueId.getUniqueId((uniqueId) => {
+    // do something
+});
 ```
