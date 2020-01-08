@@ -1,8 +1,7 @@
-
 {
-  "name": "react-native-uniqueId",
+  "name": "@fansx/react-native-uniqueid",
   "version": "1.0.0",
-  "description": "",
+  "description": "An react-native tool to get uniqueId for ios and android, that will not be changed",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +11,17 @@
     "react-native-uniqueId"
   ],
   "author": "FansX",
-  "license": "",
+  "license": "UNLICENSED",
   "devDependencies": {
     "react": "^16.12.0",
     "react-native": "^0.61.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FansPro/react-native-uniqueId.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FansPro/react-native-uniqueId/issues"
+  },
+  "homepage": "https://github.com/FansPro/react-native-uniqueId#readme"
 }

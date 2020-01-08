@@ -1,13 +1,13 @@
 
-# react-native-unique-id
+# react-native-uniqueId
 
 ## Getting started
 
-`$ npm install react-native-unique-id --save`
+`$ npm install react-native-uniqueId --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-unique-id`
+`$ react-native link react-native-uniqueId`
 
 ### Manual installation
 
@@ -15,7 +15,7 @@
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-unique-id` and add `RNUniqueId.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-uniqueId` and add `RNUniqueId.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNUniqueId.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -26,12 +26,12 @@
   - Add `new RNUniqueIdPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-unique-id'
-  	project(':react-native-unique-id').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-unique-id/android')
+  	include ':react-native-uniqueId'
+  	project(':react-native-uniqueId').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-unique-id/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-unique-id')
+      compile project(':react-native-uniqueId')
   	```
 
 #### Windows
@@ -45,9 +45,8 @@
 
 ## Usage
 ```javascript
-import RNUniqueId from 'react-native-unique-id';
+import RNUniqueId from 'react-native-uniqueId';
 
 // TODO: What to do with the module?
 RNUniqueId;
 ```
-  
