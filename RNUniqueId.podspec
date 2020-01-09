@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['repository']['url']
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNUniqueId.git", :tag => "master" }
-  s.source_files  = "RNUniqueId/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
 

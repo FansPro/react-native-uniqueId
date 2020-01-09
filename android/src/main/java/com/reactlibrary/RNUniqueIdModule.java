@@ -19,4 +19,5 @@ public class RNUniqueIdModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNUniqueId";
   }
+
 }
