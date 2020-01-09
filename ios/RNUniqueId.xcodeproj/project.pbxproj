@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNUniqueId.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUniqueId.m */; };
+		97B76AE423C714B300200EC3 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9743A42E23B0C8FD00BC342F /* KeychainItemWrapper.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNUniqueId.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUniqueId.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B76AE423C714B300200EC3 /* KeychainItemWrapper.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNUniqueId.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

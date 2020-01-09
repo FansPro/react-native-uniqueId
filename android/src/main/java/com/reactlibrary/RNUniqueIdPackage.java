@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import android.content.Context;
+import android.os.Environment;
+
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -13,6 +16,8 @@ import com.facebook.react.bridge.JavaScriptModule;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.io.FileOutputStream;
+import java.io.File;
 import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.Writer;

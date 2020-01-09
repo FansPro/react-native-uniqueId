@@ -1,6 +1,6 @@
 {
   "name": "@fansx/react-native-uniqueid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An react-native tool to get uniqueId for ios and android, that will not be changed",
   "main": "index.js",
   "scripts": {
