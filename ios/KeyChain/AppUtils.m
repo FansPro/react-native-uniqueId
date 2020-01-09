@@ -6,11 +6,11 @@
 //  Copyright © 2018年 AXtech. All rights reserved.
 //
 
-#import "AppUntils.h"
+#import "AppUtils.h"
 #import  <Security/Security.h>
 #import "KeychainItemWrapper.h"
 
-@implementation AppUntils
+@implementation AppUtils
 #pragma mark - 保存和读取UUID
 +(void)saveUUIDToKeyChain{
     KeychainItemWrapper *keychainItem = [[KeychainItemWrapper alloc] initWithAccount:@"Identfier" service:@"AppName" accessGroup:nil];

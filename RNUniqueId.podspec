@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNUniqueId.git", :tag => "master" }
   s.source_files  = "ios/**/*.{h,m}"
-  s.requires_arc = true
-
+  s.requires_arc = false
 
   s.dependency "React"
   #s.dependency "others"

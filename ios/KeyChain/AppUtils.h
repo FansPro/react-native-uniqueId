@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AppUntils : NSObject
+@interface AppUtils : NSObject
 +(void)saveUUIDToKeyChain;
 +(NSString *)readUUIDFromKeyChain;
 + (NSString *)getUUIDString;

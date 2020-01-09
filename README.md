@@ -39,6 +39,15 @@
 
 
 ## Usage
+#### ios in AppDelegate.m
+```$xslt
+#import <RNUniqueId/AppUntils.h>
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    ...
+    [AppUtils saveUUIDToKeyChain];
+    ...
+}
+```
 ```javascript
 import RNUniqueId from 'react-native-uniqueId';
 
